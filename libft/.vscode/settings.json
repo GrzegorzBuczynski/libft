@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "ctype.h": "c",
+        "cstddef": "c",
+        "cstdio": "c",
+        "concepts": "c",
+        "type_traits": "c",
+        "new": "c",
+        "typeinfo": "c",
+        "unistd.h": "c",
+        "libft.h": "c"
+    }
+}
