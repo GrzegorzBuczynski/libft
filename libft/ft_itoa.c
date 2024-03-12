@@ -10,8 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-#include <unistd.h>
+#include "libft.h"
 
 static size_t	ft_count_digits(int n)
 {
@@ -30,9 +29,9 @@ static size_t	ft_count_digits(int n)
 
 char	*ft_itoa(int n)
 {
-	char	*ptr;
-	size_t	i;
-	size_t	digits;
+	char *ptr;
+	size_t i;
+	size_t digits;
 
 	digits = ft_count_digits(n);
 	ptr = malloc(digits + 1);
@@ -58,25 +57,3 @@ char	*ft_itoa(int n)
 	}
 	return (ptr);
 }
-
-/* int	main(void)
-{
-	char	*ptr;
-
-	ptr = ft_itoa(0);
-	write(1, ptr, 1);
-	free(ptr);
-	ptr = ft_itoa(42);
-	write(1, ptr, 2);
-	free(ptr);
-	ptr = ft_itoa(-42);
-	write(1, ptr, 3);
-	free(ptr);
-	ptr = ft_itoa(2147483647);
-	write(1, ptr, 10);
-	free(ptr);
-	ptr = ft_itoa(-2147483648);
-	write(1, ptr, 11);
-	free(ptr);
-	return (0);
-} */

@@ -10,21 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <unistd.h>
-
-int ft_isdigit(int c)
+int	ft_isdigit(int c)
 {
-    return (c >= '0' && c <= '9');
+	return (c >= '0' && c <= '9');
 }
-
-
-/* int main()
-{
-    char c = '5';
-    if (ft_isdigit(c))
-        write(1, "5 is a digit\n", 13);
-    else
-        write(1, "5 is not a digit\n", 17);
-    return 0;
-} */
