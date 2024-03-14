@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "libft.h"
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {
@@ -25,19 +25,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
-
-/* int	main(void)
-{
-	char	str[] = "Hello, World!";
-	char	*ptr;
-
-	write(1, "ft_memchr(\"Hello, World!\", 'o', 13): ", 39);
-	ptr = ft_memchr(str, 'o', 13);
-	write(1, ptr, 1);
-	write(1, "\n", 1);
-	write(1, "ft_memchr(\"Hello, World!\", 'z', 13): ", 39);
-	ptr = ft_memchr(str, 'z', 13);
-	write(1, ptr, 1);
-	write(1, "\n", 1);
-	return (0);
-} */

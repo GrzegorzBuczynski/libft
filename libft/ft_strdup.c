@@ -10,9 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
 #include <stdlib.h>
-#include <unistd.h>
 
 char	*ft_strdup(const char *s)
 {
@@ -34,13 +32,3 @@ char	*ft_strdup(const char *s)
     ptr[i] = '\0';
     return (ptr);
 }
-
-/* int	main(void)
-{
-    char	*ptr;
-
-    ptr = ft_strdup("Hello, World!");
-    write(1, ptr, 13);
-    free(ptr);
-    return (0);
-} */

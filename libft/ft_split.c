@@ -11,7 +11,6 @@
 /* ************************************************************************** */
 
 #include <stdlib.h>
-#include <unistd.h>
 
 static size_t	ft_count_words(char const *s, char c)
 {
@@ -74,19 +73,3 @@ char	**ft_split(char const *s, char c)
 	ptr[j] = NULL;
 	return (ptr);
 }
-
-/* int	main(void)
-{
-	char	**ptr;
-	size_t	i;
-
-	ptr = ft_split("Hello, World!", ',');
-	i = 0;
-	while (ptr[i])
-	{
-		write(1, ptr[i], 5);
-		write(1, "\n", 1);
-		i++;
-	}
-	return (0);
-} */

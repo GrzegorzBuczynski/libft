@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
 #include <stdlib.h>
 #include <unistd.h>
 
@@ -44,13 +43,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
     ptr[i + j] = '\0';
     return (ptr);
 }
-
-/* int	main(void)
-{
-    char	*ptr;
-
-    ptr = ft_strjoin("Hello, ", "World!");
-    write(1, ptr, 13);
-    free(ptr);
-    return (0);
-} */
