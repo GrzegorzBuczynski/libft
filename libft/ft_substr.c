@@ -13,7 +13,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
 #include <stdlib.h>
 #include "libft.h"
 
@@ -44,13 +43,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
     ptr[i] = '\0';
     return (ptr);
 }
-
-/* int	main(void)
-{
-    char	*ptr;
-
-    ptr = ft_substr("Hello, World!", 7, 5);
-    write(1, ptr, 5);
-    free(ptr);
-    return (0);
-} */

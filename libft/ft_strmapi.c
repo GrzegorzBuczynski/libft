@@ -10,8 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-#include <unistd.h>
 #include "libft.h"
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
@@ -31,13 +29,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	ptr[i] = '\0';
 	return (ptr);
 }
-
-/* int	main(void)
-{
-	char	*ptr;
-
-	ptr = ft_strmapi("Hello, World!", &ft_toupper);
-	write(1, ptr, 13);
-	free(ptr);
-	return (0);
-} */

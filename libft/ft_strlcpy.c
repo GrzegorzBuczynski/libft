@@ -10,8 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
-#include <unistd.h>
+#include <stdlib.h>
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 {
@@ -29,25 +28,3 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
         i++;
     return (i);
 }
-
-/* int	main(void)
-{
-    char	str1[50] = "Hello, World!";
-    char	str2[50] = "Hello, World!";
-
-    write(1, "Before strlcpy: ", 16);
-    write(1, str1, sizeof(str1));
-    write(1, "\n", 1);
-    ft_strlcpy(str1, str1 + 7, 13);
-    write(1, "After strlcpy: ", 15);
-    write(1, str1, sizeof(str1));
-    write(1, "\n", 1);
-    write(1, "Before strlcpy: ", 16);
-    write(1, str2, sizeof(str2));
-    write(1, "\n", 1);
-    strlcpy(str2, str2 + 7, 13);
-    write(1, "After strlcpy: ", 15);
-    write(1, str2, sizeof(str2));
-    write(1, "\n", 1);
-    return (0);
-} */

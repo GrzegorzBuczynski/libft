@@ -11,7 +11,6 @@
 /* ************************************************************************** */
 
 #include <stdlib.h>
-#include <unistd.h>
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {

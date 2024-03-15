@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include <stddef.h>
 
 char	*ft_strrchr(const char *s, int c)
 {
@@ -27,19 +27,3 @@ char	*ft_strrchr(const char *s, int c)
 		return ((char *)s);
 	return (ptr);
 }
-
-/* int	main(void)
-{
-	char	str[] = "Hello, World!";
-	char	*ptr;
-
-	write(1, "ft_strrchr(\"Hello, World!\", 'o'): ", 35);
-	ptr = ft_strrchr(str, 'o');
-	write(1, ptr, 1);
-	write(1, "\n", 1);
-	write(1, "ft_strrchr(\"Hello, World!\", 'z'): ", 35);
-	ptr = ft_strrchr(str, 'z');
-	write(1, ptr, 1);
-	write(1, "\n", 1);
-	return (0);
-} */

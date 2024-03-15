@@ -10,8 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
-#include <unistd.h>
+#include <stdlib.h>
 
 size_t	ft_strlen(char *str)
 {
@@ -22,29 +21,3 @@ size_t	ft_strlen(char *str)
         i++;
     return (i);
 }
-
-/* void ft_putnbr(int nb)
-{
-    char c;
-
-    if (nb < 0)
-    {
-        write(1, "-", 1);
-        nb = -nb;
-    }
-    if (nb > 9)
-        ft_putnbr(nb / 10);
-    c = nb % 10 + '0';
-    write(1, &c, 1);
-}
-
-
-int	main(void)
-{
-    char *str = "Hello, World!";
-    write(1, "The length of the string is: ", 29);
-    ft_putnbr(ft_strlen(str));
-    write(1, "\n", 1);
-    return (0);
-} */
-
