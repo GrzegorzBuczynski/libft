@@ -6,11 +6,11 @@
 /*   By: gbuczyns <gbuczyns@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/10 21:59:12 by gbuczyns          #+#    #+#             */
-/*   Updated: 2024/03/17 16:34:15 by gbuczyns         ###   ########.fr       */
+/*   Updated: 2024/03/18 23:07:05 by gbuczyns         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
+#include "libft.h"
 
 static int	ft_is_in_set(char c, char const *set)
 {

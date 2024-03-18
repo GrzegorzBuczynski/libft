@@ -6,11 +6,11 @@
 /*   By: gbuczyns <gbuczyns@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/01 21:07:35 by gbuczyns          #+#    #+#             */
-/*   Updated: 2024/03/17 15:23:53 by gbuczyns         ###   ########.fr       */
+/*   Updated: 2024/03/18 23:07:55 by gbuczyns         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
+#include "libft.h"
 
 static size_t	ft_count_words(char const *s, char c)
 {
@@ -103,20 +103,4 @@ char	**ft_split(char const *s, char c)
 	return (ptr);
 }
 
-/* #include <stdio.h>
-int	main(void)
-{
-	char	*str;
-	char	**tab;
-	int		i;
 
-	str = "Hello World";
-	tab = ft_split(str, ' ');
-	i = 0;
-	while (tab[i])
-	{
-		printf("%s\n", tab[i]);
-		i++;
-	}
-	return (0);
-} */

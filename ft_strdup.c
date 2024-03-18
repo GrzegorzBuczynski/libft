@@ -6,11 +6,11 @@
 /*   By: gbuczyns <gbuczyns@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/01 21:00:47 by gbuczyns          #+#    #+#             */
-/*   Updated: 2024/03/16 16:33:07 by gbuczyns         ###   ########.fr       */
+/*   Updated: 2024/03/18 23:06:20 by gbuczyns         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
+#include "libft.h"
 
 char	*ft_strdup(const char *s)
 {

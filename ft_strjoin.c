@@ -6,21 +6,11 @@
 /*   By: gbuczyns <gbuczyns@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/01 21:03:27 by gbuczyns          #+#    #+#             */
-/*   Updated: 2024/03/17 12:50:23 by gbuczyns         ###   ########.fr       */
+/*   Updated: 2024/03/18 23:06:28 by gbuczyns         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-
-static size_t	ft_strlen(const char *str)
-{
-	size_t	len;
-
-	len = 0;
-	while (str[len] != '\0')
-		len++;
-	return (len);
-}
+#include "libft.h"
 
 static char	*ft_strcpy(char *dst, const char *src)
 {

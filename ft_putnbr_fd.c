@@ -6,11 +6,11 @@
 /*   By: gbuczyns <gbuczyns@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/10 21:27:51 by gbuczyns          #+#    #+#             */
-/*   Updated: 2024/03/16 16:33:18 by gbuczyns         ###   ########.fr       */
+/*   Updated: 2024/03/18 23:05:57 by gbuczyns         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "libft.h"
 
 void	ft_putnbr_fd(int n, int fd)
 {
